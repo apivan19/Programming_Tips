@@ -1,5 +1,4 @@
 # Programming_Tips
-Just some programming tips to keep in mind and refresh on once in a while
 
 # GENERAL README FORMAT! - REFERENCE THIS WHEN DOCUMENTING NEW PROJECTS
 
@@ -19,3 +18,36 @@ Just some programming tips to keep in mind and refresh on once in a while
 7. Credits: Include a section for credits in order to highlight and link to the authors of your project.
 
 8. License: Finally, include a section for the license of your project. For more information on choosing a license, check out GitHub’s licensing guide!
+
+# General Programming Tips
+
+1. Improve through working on projects and time spent writing code
+   - PRACTICE OFTEN AND TRY NEW THINGS
+
+2. Always leave the code cleaner than you found it.
+
+3. Simplify your code as much as possible without losing functionality
+
+4. Keep your programs concise and functional
+
+5. Keep your programs factored nicely and not all in a single file.
+   - Classes should have their individual files.
+
+6. Use meaningful names for variables/methods/functions/classes and stick to naming conventions
+   - variable names should be all lowercase
+   - Class names should have first letter capitalized
+   - CONSTANTS names should be all UPPER CASE
+   - Start a variable with an underscore if you would like it to be hidden
+   - Never start variable/class/function names with a number 
+
+   - The names of these classes should be detailed and specific enough that you shouldn't have to look at the comments (But still do write comments)
+   - No Magic Numbers / Constants - Do not write numbers directly in your code. Define them in a constants.py file and import them
+
+7. Keep your code "DRY"
+   - DON'T
+   - REPEAT
+   - YOURSELF
+   - Replace several instances repeating code with a single instance that gets called each time
+   - Similar to Repetition in writing
+
+8. At the top of the file, write what versions of Python, or other language, that you have written or tested the program in.
